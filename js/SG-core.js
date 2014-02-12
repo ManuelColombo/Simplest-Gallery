@@ -35,10 +35,10 @@ function moveGallery(avanti, lista){
 */
 
 $(function(){
-		$(controlli).click(function(e){
-			e.preventDefault();
-			if($(this).hasClass('prev')) { next=false; } else { next=true; }
-			moveGallery(next, lista);
-		});
+  $(controlli).click(function(e){
+    e.preventDefault();
+    if($(this).hasClass('prev')) { next=false; } else { next=true; }
+    moveGallery(next, lista);
+  });
 });
 
